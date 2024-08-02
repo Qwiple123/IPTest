@@ -30,10 +30,9 @@ MongoDB:
 Требования:
     Docker
     Docker Compose
----
 ## Запуск проекта:
 Клонируйте репозиторий:
-    git clone [этот репозиторий](https://github.com/Qwiple123/IPTest.git)
+    git clone https://github.com/Qwiple123/IPTest.git
 
 Запустите контейнеры:
     docker-compose up --build
