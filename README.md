@@ -29,21 +29,19 @@ MongoDB:
 
 Требования:
     Docker
-    Docker Compose
+    Docker, Compose
 ## Запуск проекта:
 Клонируйте репозиторий:
     git clone https://github.com/Qwiple123/IPTest.git
-
-Запустите контейнеры:
-    docker-compose up --build
-    Это развернет FastAPI приложение, Nginx, MongoDB, Redis и Aiogram Бота.
     
 Создание .env файла<br/>
     `cd bot`<br/>
     `cp .env.template .env`
     
-
-
+Запустите контейнеры:
+    docker-compose up --build
+    Это развернет FastAPI приложение, Nginx, MongoDB, Redis и Aiogram Бота.
+    
 
 Телеграм-бот
 ### https://t.me/Qwiple_Test_Bot
