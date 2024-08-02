@@ -16,6 +16,16 @@ services:
     networks:
       - backend
 
+  bot:
+    build: 
+      context: ./bot
+      dockerfile: Dockerfile
+    container_name: bot
+    command: python runbot.py
+    depends_on:
+      - web
+    networks:
+      - backend
 
   mongo:
     image: mongo
