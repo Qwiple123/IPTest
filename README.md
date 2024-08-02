@@ -32,7 +32,7 @@ MongoDB:
     Docker Compose
 ---
 ## Запуск проекта:
-    Клонируйте репозиторий:
+Клонируйте репозиторий:
     git clone [этот репозиторий](https://github.com/Qwiple123/IPTest.git)
 
 Запустите контейнеры:
